@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --bg: #0F111A;
+    --card-bg: #1A1D2E;
+    --accent: #E1306C;
+    --accent-grad: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    --text: #E0E6ED;
+    --text-dim: #94A3B8;
+    --border: #2D3748;
+    --success: #10B981;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+}

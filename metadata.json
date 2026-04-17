@@ -1,0 +1,11 @@
+{
+  "name": "InstaBot Supremo V28",
+  "description": "Full-stack Instagram automation dashboard with AI-powered image optimization, caption generation, and multi-post management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "AI-powered social media management"
+  ]
+}
